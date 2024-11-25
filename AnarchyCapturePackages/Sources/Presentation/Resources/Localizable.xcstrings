@@ -2,10 +2,34 @@
   "sourceLanguage" : "en",
   "strings" : {
     "appTitle" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AnarchyCapture"
+          }
+        }
+      }
     },
-    "Hello, World!" : {
-
+    "device" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Device:"
+          }
+        }
+      }
+    },
+    "unselected" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unselected"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
