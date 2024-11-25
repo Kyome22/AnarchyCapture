@@ -10,9 +10,11 @@ import DataLayer
 import SwiftUI
 
 public final class AppServices: Sendable {
+    public let captureService: CaptureService
     public let logService: LogService
 
     public nonisolated init(appDependencies: AppDependencies) {
+        captureService = .init()
         logService = .init(appDependencies.loggingSystemClient)
     }
 }
